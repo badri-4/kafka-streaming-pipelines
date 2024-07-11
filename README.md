@@ -46,6 +46,7 @@ This project sets up a real-time streaming data pipeline using Kafka and Docker.
    python consumer.py
 
 
+
 ## Design Choices:
 
 ### Components
