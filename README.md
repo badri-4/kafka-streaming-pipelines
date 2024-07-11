@@ -45,9 +45,9 @@ This project sets up a real-time streaming data pipeline using Kafka and Docker.
    ```bash
    python consumer.py
 
-##Design Choices:
+## Design Choices:
 
-###Components
+### Components
 
 **Kafka**: Used as the messaging system for real-time data streaming.
 
