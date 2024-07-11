@@ -88,26 +88,26 @@ This project sets up a real-time streaming data pipeline using Kafka and Docker.
 
 1. **Filtering**:
 
-      * Only processes messages where device_type is android, ignoring others.
+      * Only processes messages where **'device_type'** is **'android'**, ignoring others.
 
 2. **Transformations**:
 
-      * Adds a processed_timestamp field to each message.
+      * Adds a **'processed_timestamp'** field to each message.
       * Converts the timestamp to a human-readable format.
 
 3. **Categorization**:
 
-      * Categorizes devices into Mobile, Tablet, or Desktop based on the device_type field.
+      * Categorizes devices into **'Mobile'**, **'Tablet'**, or **'Desktop'** based on the **'device_type'** field.
 
 
 4. **Anomaly Detection**:
 
-      * Flags anomalies based on certain conditions (e.g., if the locale field is in a list of suspicious locales).
+      * Flags anomalies based on certain conditions (e.g., if the **'locale'** field is in a list of suspicious locales).
 
 
 5. **Aggregation**:
 
-      * Counts messages per app_version and logs this information every 60 seconds.
+      * Counts messages per **'app_version'** and logs this information every 60 seconds.
 
 
 ## Ensuring Efficiency, Scalability, and Fault Tolerance
