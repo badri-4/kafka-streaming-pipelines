@@ -8,7 +8,7 @@ This project sets up a real-time streaming data pipeline using Kafka and Docker.
 
 - Docker
 - Docker Compose
-- Python (version 3.6 or higher)
+- Python
 - Kafka-Python library
 
 ### Setup Instructions
