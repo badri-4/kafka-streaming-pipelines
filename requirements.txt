@@ -1,4 +1,1 @@
 kafka-python==2.0.2
-maxminddb==2.2.0
-maxminddb-geolite2==2018.703
-geoip2==4.5.0
