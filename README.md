@@ -160,7 +160,7 @@ By following the setup instructions, you can deploy and run the pipeline, and us
 
 # ADDITIONAL QUESTIONS
 
-### 1.How would you deploy this application in production?
+### 1. How would you deploy this application in production?
 Deploying this application in production involves several steps to ensure reliability, scalability, and maintainability. Here's a high-level approach:
 
 1. **Containerization**:
