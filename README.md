@@ -160,5 +160,5 @@ By following the setup instructions, you can deploy and run the pipeline, and us
 
 # ADDITIONAL QUESTIONS
 
-###1.How would you deploy this application in production?###
+### 1.How would you deploy this application in production?
 
