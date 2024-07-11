@@ -17,6 +17,10 @@ This project sets up a real-time streaming data pipeline using Kafka and Docker.
 
    ```bash
    git clone https://github.com/your-username/kafka-streaming-pipelines.git
+
+2. **Navigate to the Project Directory**
+
+   ```bash
    cd kafka-streaming-pipelines
 
 2. **Install Python Dependencies:**:
