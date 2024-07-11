@@ -155,3 +155,10 @@ This real-time streaming data pipeline leverages Kafka and Docker to efficiently
 
 By following the setup instructions, you can deploy and run the pipeline, and use the logging information to monitor its performance and troubleshoot any issues that arise.
 
+
+
+
+# ADDITIONAL QUESTIONS
+
+###1.How would you deploy this application in production?###
+
