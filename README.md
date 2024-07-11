@@ -45,6 +45,7 @@ This project sets up a real-time streaming data pipeline using Kafka and Docker.
    ```bash
    python consumer.py
 
+$~$
 ## Design Choices:
 
 ### Components
@@ -158,7 +159,7 @@ By following the setup instructions, you can deploy and run the pipeline, and us
 
 
 
-
+$~$
 # ADDITIONAL QUESTIONS
 
 ## 1. How would you deploy this application in production?
@@ -193,7 +194,7 @@ Use centralized logging systems like ELK Stack (Elasticsearch, Logstash, Kibana)
 
       * Implement security best practices such as securing communication channels with TLS, setting up authentication and authorization for Kafka using SASL and ACLs, and securing access to the Kubernetes cluster.
 
-
+$~$
 ## 2. What other components would you want to add to make this production ready?
    To make the application production-ready, additional components and enhancements would be necessary:
 
@@ -229,7 +230,7 @@ Use centralized logging systems like ELK Stack (Elasticsearch, Logstash, Kibana)
 
       * Implement an API gateway to manage and secure API calls, handle load balancing, and provide a single entry point for external consumers.
 
-
+$~$
 ## 3. How can this application scale with a growing dataset?
    Scaling this application to handle a growing dataset involves both horizontal and vertical scaling strategies:
 
