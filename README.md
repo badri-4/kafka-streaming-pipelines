@@ -51,8 +51,9 @@ This project sets up a real-time streaming data pipeline using Kafka and Docker.
 
 1. **Kafka**: Used as the messaging system for real-time data streaming.
 
-**Zookeeper**: Manages and coordinates the Kafka brokers.
-**Kafka Broker**: Handles the data streams and stores them in topics.
+   **Zookeeper**: Manages and coordinates the Kafka brokers.
+
+   **Kafka Broker**: Handles the data streams and stores them in topics.
 
 2. **Docker**: Provides a consistent environment for running Kafka and other components.
    
