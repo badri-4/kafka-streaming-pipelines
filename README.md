@@ -49,18 +49,22 @@ This project sets up a real-time streaming data pipeline using Kafka and Docker.
 
 ### Components
 
-**Kafka**: Used as the messaging system for real-time data streaming.
+1. **Kafka**: Used as the messaging system for real-time data streaming.
 
 **Zookeeper**: Manages and coordinates the Kafka brokers.
 **Kafka Broker**: Handles the data streams and stores them in topics.
-**Docker**: Provides a consistent environment for running Kafka and other components.
 
-Docker Compose: Simplifies the setup of multi-container Docker applications, ensuring all components start with a single command.
-Python: Used for implementing the Kafka consumer and producer logic.
+2. **Docker**: Provides a consistent environment for running Kafka and other components.
+   
+**Docker Compose**: Simplifies the setup of multi-container Docker applications, ensuring all components start with a single command.
 
-kafka-python: A library for working with Kafka in Python, providing the necessary interfaces for consuming and producing messages.
-Data Flow
-Data Generation:
+3. Python: Used for implementing the Kafka consumer and producer logic.
+
+**kafka-python**: A library for working with Kafka in Python, providing the necessary interfaces for consuming and producing messages.
+
+##Data Flow
+
+1. Data Generation:
 
 A data generator produces messages and sends them to the user-login Kafka topic. This simulates real-time user login events.
 Kafka Consumer:
